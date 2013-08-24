@@ -1,0 +1,10 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1369432937000 490914 3fe75433da602500cc71fcc1c46e5550291dd45d /Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/13.0.0/support-v4-13.0.0.jar
+1377308491000 406 7054550a93edba958b5155240f09ffb09a5a5cbe /Users/shadowzero313/AndroidStudioProjects/LocationServiceProject/LocationService/build/classes/debug/com/shanehomanexperience/locationservice/R$attr.class
+1377308491000 389 06b5c86274c82e20dd2b604f001d20a00a8547fe /Users/shadowzero313/AndroidStudioProjects/LocationServiceProject/LocationService/build/classes/debug/com/shanehomanexperience/locationservice/BuildConfig.class
+1377308491000 497 673682d82350affa14cf3c62cf66e920e5ff81eb /Users/shadowzero313/AndroidStudioProjects/LocationServiceProject/LocationService/build/classes/debug/com/shanehomanexperience/locationservice/R$style.class
+1377308491000 473 43af9ba1031f98851715f924c85346d15ff3b57b /Users/shadowzero313/AndroidStudioProjects/LocationServiceProject/LocationService/build/classes/debug/com/shanehomanexperience/locationservice/R$drawable.class
+1377308491000 623 8de3ad76cb7a1c0a72e1bdd931d7711033fe8db4 /Users/shadowzero313/AndroidStudioProjects/LocationServiceProject/LocationService/build/classes/debug/com/shanehomanexperience/locationservice/R.class
+1377308491000 464 aa413b34cfe5bc61ac06eaab51d6c03ac0d62276 /Users/shadowzero313/AndroidStudioProjects/LocationServiceProject/LocationService/build/classes/debug/com/shanehomanexperience/locationservice/R$string.class
