@@ -1,5 +1,5 @@
 /** Automatically generated file. DO NOT MODIFY */
-package com.shanehomanexperience.locationservice;
+package com.shanehomanexperience.location;
 
 public final class BuildConfig {
     public final static boolean DEBUG = true;

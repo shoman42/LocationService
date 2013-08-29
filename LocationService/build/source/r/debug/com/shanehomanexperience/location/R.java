@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.shanehomanexperience.locationservice;
+package com.shanehomanexperience.location;
 
 public final class R {
     public static final class attr {
@@ -14,20 +14,20 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class string {
-        /**  From: file:/Users/shadowzero313/AndroidStudioProjects/LocationServiceProject/LocationService/src/main/res/values/strings.xml 
+        /**  From: file:/Users/shadowzero313/AndroidStudioProjects/LocationServiceProject/GPSLocationService/src/main/res/values/strings.xml
          */
         public static final int app_name=0x7f030000;
     }
     public static final class style {
-        /**  From: file:/Users/shadowzero313/AndroidStudioProjects/LocationServiceProject/LocationService/src/main/res/values/styles.xml 
+        /**  From: file:/Users/shadowzero313/AndroidStudioProjects/LocationServiceProject/GPSLocationService/src/main/res/values/styles.xml
 
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
         
- From: file:/Users/shadowzero313/AndroidStudioProjects/LocationServiceProject/LocationService/src/main/res/values-v11/styles.xml 
+ From: file:/Users/shadowzero313/AndroidStudioProjects/LocationServiceProject/GPSLocationService/src/main/res/values-v11/styles.xml
  API 11 theme customizations can go here. 
- From: file:/Users/shadowzero313/AndroidStudioProjects/LocationServiceProject/LocationService/src/main/res/values-v14/styles.xml 
+ From: file:/Users/shadowzero313/AndroidStudioProjects/LocationServiceProject/GPSLocationService/src/main/res/values-v14/styles.xml
  API 14 theme customizations can go here. 
          */
         public static final int AppBaseTheme=0x7f040000;
