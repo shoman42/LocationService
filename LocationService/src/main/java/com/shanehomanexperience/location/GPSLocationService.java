@@ -11,10 +11,12 @@ import android.os.IBinder;
 import android.widget.Toast;
 
 /**
- * Created by shoman42 on 8/23/13.
+ * Handles the GPS;
  */
 public class GPSLocationService extends Service {
     private final IBinder binder = new LocalBinder();
+    private final long DEFAULT_UPDATE_TIME = 1000;
+    private final float DEFAULT_UPDATE_DIST = 0.0f;
     private LocationManager lm;
     private LocalLocationListener ll;
     private boolean active;
@@ -27,8 +29,8 @@ public class GPSLocationService extends Service {
         super.onCreate();
         lm = (LocationManager) getSystemService(LOCATION_SERVICE);
         ll = new LocalLocationListener();
-        updateTime=0;
-        updateDist=0.0f;
+        updateTime=DEFAULT_UPDATE_TIME;
+        updateDist=DEFAULT_UPDATE_DIST;
         active=false;
         disabledWhileActive=false;
     }
@@ -83,6 +85,9 @@ public class GPSLocationService extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
+        updateTime = intent.getLongExtra("time", DEFAULT_UPDATE_TIME);
+        updateDist = intent.getFloatExtra("dist", DEFAULT_UPDATE_DIST);
+        startTracking();
         return super.onStartCommand(intent, flags, startId);
     }
 

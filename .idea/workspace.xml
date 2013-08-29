@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="227c552d-97cb-4dc6-8340-8e1fdae31be8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LocationService/src/main/java/com/shanehomanexperience/location/GPSLocationService.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LocationService/src/main/java/com/shanehomanexperience/locationservice/LocationService.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LocationService/build/source/buildConfig/debug/com/shanehomanexperience/locationservice/BuildConfig.java" afterPath="$PROJECT_DIR$/LocationService/build/source/buildConfig/debug/com/shanehomanexperience/location/BuildConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LocationService/build/source/r/debug/com/shanehomanexperience/locationservice/R.java" afterPath="$PROJECT_DIR$/LocationService/build/source/r/debug/com/shanehomanexperience/location/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LocationService/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/LocationService/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LocationService/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/LocationService/build/res/all/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LocationService/build/res/all/debug/values-v11/values.xml" afterPath="$PROJECT_DIR$/LocationService/build/res/all/debug/values-v11/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LocationService/build/res/all/debug/values-v14/values.xml" afterPath="$PROJECT_DIR$/LocationService/build/res/all/debug/values-v14/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LocationService/src/main/java/com/shanehomanexperience/location/GPSLocationService.java" afterPath="$PROJECT_DIR$/LocationService/src/main/java/com/shanehomanexperience/location/GPSLocationService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LocationService.iws" />
@@ -77,7 +70,7 @@
       <file leaf-file-name="GPSLocationService.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LocationService/src/main/java/com/shanehomanexperience/location/GPSLocationService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="27" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.32967034" vertical-offset="345" max-vertical-offset="1770">
+            <state line="88" column="69" selection-start="2672" selection-end="2672" vertical-scroll-proportion="1.7425432" vertical-offset="60" max-vertical-offset="1845">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#setUpdateTime#0;class#GPSLocationService#0" expanded="false" />
@@ -158,6 +151,7 @@
         <option value="$PROJECT_DIR$/LocationService/src/main/java/com/shanehomanexperience/locationservice/LocationService.java" />
         <option value="$PROJECT_DIR$/LocationService/src/main/java/com/shanehomanexperience/locationservice/GPSLocationService.java" />
         <option value="$PROJECT_DIR$/LocationService/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/LocationService/src/main/java/com/shanehomanexperience/location/GPSLocationService.java" />
       </list>
     </option>
   </component>
@@ -474,7 +468,11 @@
       <created>1377548836193</created>
       <updated>1377548836193</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="utility methods">
+      <created>1377815711720</created>
+      <updated>1377815711720</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -492,6 +490,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -504,7 +503,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -517,7 +515,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="utility methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="utility methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -550,7 +549,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LocationService/src/main/java/com/shanehomanexperience/location/GPSLocationService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="27" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.32967034" vertical-offset="345" max-vertical-offset="1770">
+        <state line="88" column="69" selection-start="2672" selection-end="2672" vertical-scroll-proportion="1.7425432" vertical-offset="60" max-vertical-offset="1845">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#setUpdateTime#0;class#GPSLocationService#0" expanded="false" />
